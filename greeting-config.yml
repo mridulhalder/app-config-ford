@@ -1,10 +1,10 @@
 security:
   basic:
-    enabled: true # turn off securing our application endpoints
+    enabled: false # turn off securing our application endpoints
 
 management:
   security:
-    enabled: true # turn off securing the actuator endpoints
+    enabled: false # turn off securing the actuator endpoints
     
 logging: # <----New sections below
   level:
